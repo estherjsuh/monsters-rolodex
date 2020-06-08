@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "npm install --save gh-pages",
+  "homepage": "https://estherjsuh.github.io/monsters-rolodex",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run deploy"
+    "deploy": "gh-pages -d build"
   },
 
   "eslintConfig": {
